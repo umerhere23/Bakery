@@ -26,7 +26,7 @@ body {
 
 .container {
     width: 90%;
-    max-width: auto;
+    max-width: 3000px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -138,7 +138,7 @@ nav ul li.active a::after {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: 80vh;
     display: flex;
     align-items: center;
