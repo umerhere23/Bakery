@@ -1,5 +1,4 @@
-/* Global Styles */
-:root {
+ :root {
     --primary-color: #f8b195;
     --secondary-color: #f67280;
     --dark-color: #355c7d;
@@ -27,7 +26,7 @@ body {
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: auto;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -857,15 +856,13 @@ footer h3 {
     padding: 15px 25px;
 }
 
-/* Blog Post Styles */
-.blog-post {
+ .blog-post {
     padding: 60px 0;
 }
 
 .post-header {
     text-align: center;
-    margin-bottom: 40px;
-}
+    margin-top: 75px;}
 
 .post-date {
     color: var(--text-light);
