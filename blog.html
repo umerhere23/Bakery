@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery | Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.avif" alt="Sweet Delights Bakery Logo">
+                <h1>Sweet Delights</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Our Baking Blog</h1>
+            <p>Discover recipes, baking tips, and behind-the-scenes stories from our bakery</p>
+        </section>
+
+        <section class="blog-posts">
+            <div class="container">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog/sourdough.jpg" alt="Freshly baked sourdough bread">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">June 15, 2023</span>
+                        <h2><a href="blog-post-1.html">The Art of Sourdough: Our 100-Year-Old Starter</a></h2>
+                        <p>Learn about our heritage sourdough starter that's been with us since the beginning and how we maintain its unique flavor profile.</p>
+                        <a href="blog-post-1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog/gluten-free.jpg" alt="Gluten free baking ingredients">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">May 28, 2023</span>
+                        <h2><a href="blog-post-2.html">Gluten-Free Baking: Tips and Tricks</a></h2>
+                        <p>Discover our secrets for making gluten-free baked goods that are just as delicious as their traditional counterparts.</p>
+                        <a href="blog-post-2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog/wedding-cake.jpg" alt="Wedding cake decoration">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">April 10, 2023</span>
+                        <h2><a href="blog-post-3.html">Creating the Perfect Wedding Cake</a></h2>
+                        <p>Follow the journey of designing and baking a custom wedding cake from initial consultation to final delivery.</p>
+                        <a href="blog-post-3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog/seasonal.jpg" alt="Seasonal fruit pastries">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">March 22, 2023</span>
+                        <h2><a href="blog-post-4.html">Seasonal Ingredients: Summer Fruit Pastries</a></h2>
+                        <p>How we incorporate seasonal fruits into our pastry lineup and why fresh, local ingredients make all the difference.</p>
+                        <a href="blog-post-4.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for new recipes, baking tips, and special offers</p>
+                <form id="newsletterForm">
+                    <div class="form-group">
+                        <input type="email" id="newsletterEmail" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                    <div class="error-message" id="newsletter-error"></div>
+                    <div class="success-message" id="newsletter-success"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+       <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Sweet Delights</h3>
+                <p>123 Baker Street<br>London, UK</p>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 7am - 7pm<br>Saturday - Sunday: 8am - 6pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Sweet Delights Bakery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
