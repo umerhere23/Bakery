@@ -196,3 +196,11 @@ if (commentForm) {
         }
     });
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("orderForm");
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); 
+      alert("Thank you! Your order has been submitted successfully.");
+      form.reset();  
+    });
+  });

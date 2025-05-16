@@ -1019,6 +1019,52 @@ tr:hover {
 .post-navigation .next-post:hover i {
     transform: translateX(5px);
 }
+.order-form {
+    padding: 40px 0;
+    background-color: #fff5f0;
+}
+
+.order-form .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #5a2d22;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.order-form button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #c27b6f;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-form button:hover {
+    background-color: #a55445;
+}
 
 /* Comments Section */
 .comments {
@@ -1121,3 +1167,13 @@ tr:hover {
         padding-left: 0;
     }
 }
+ 
+ 
+.listdesgin {
+    list-style: none;
+    color: white;
+ }
+.listdesgin  a{
+    list-style: none;
+    color: white;
+ }
